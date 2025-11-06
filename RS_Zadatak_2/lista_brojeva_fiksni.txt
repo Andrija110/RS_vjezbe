@@ -1,0 +1,20 @@
+01	Grad Zagreb i Zagrebačka županija
+020	Dubrovačko-neretvanska županija
+021	Splitsko-dalmatinska županija
+022	Šibensko-kninska županija
+023	Zadarska županija
+031	Osječko-baranjska županija
+032	Vukovarsko-srijemska županija
+033	Virovitičko-podravska županija
+034	Požeško-slavonska županija
+035	Brodsko-posavska županija
+040	Međimurska županija
+042	Varaždinska županija
+043	Bjelovarsko-bilogorska županija
+044	Sisačko-moslavačka županija
+047	Karlovačka županija
+048	Koprivničko-križevačka županija
+049	Krapinsko-zagorska županija
+051	Primorsko-goranska županija
+052	Istarska županija
+053	Ličko-senjska županija

@@ -1,0 +1,6 @@
+060	komercijalni pozivi
+061 glasovanje telefonom
+064	usluge s neprimjerenim sadržajem
+065 nagradne igre
+069	usluge namijenjene djeci
+072	jedinstven pristupni broj za cijelu državu za posebne usluge
