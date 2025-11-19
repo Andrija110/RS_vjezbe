@@ -33,7 +33,7 @@ studenti = [
 
 zbrojeni_bodovi = [{student["prezime"]: sum(student["bodovi"])} for student in studenti]
 
-print(zbrojeni_bodovi) # Ispis: [{'Ivić': 152}, {'Marković': 127}, {'Anić': 55}, {'Petrić': 362}, {'Ivić': 236}, {'Matić': 266}]
+print(zbrojeni_bodovi) # Ispis: [{'Ivić': 152}, {'Marković': 127}, {'Anić': 55}, {'Petrić': 362}, {'Ivić': 236},             {'Matić': 266}]
 #%%
 # 6. Koristeći dictionary comprehension, izgradite rječnik gdje su ključevi brojevi od 1 do 10, a vrijednosti su liste faktorijela tih brojeva.
 import math
