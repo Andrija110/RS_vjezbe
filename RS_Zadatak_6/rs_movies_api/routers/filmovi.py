@@ -3,6 +3,7 @@ import os
 from fastapi import APIRouter, HTTPException, Query, status
 from typing import List, Optional
 from models import Movie, Actor, Writer
+from pathlib import Path
 
 router = APIRouter(prefix="/filmovi", tags=["filmovi"])
 
@@ -18,8 +19,9 @@ def parse_person(person_str: str) -> dict:
 
 # Funkcija za učitavanje podataka pri pokretanju
 def load_movies():
-    file_path = os.path.join("data", "movies.json")
-    if not os.path.exists(file_path):
+    file_path = Path(__file__).parent.parent / "data" / "movies.json"
+    print(f"Učitavanje podataka iz {file_path}")
+    if not file_path.exists():
         print(f"Upozorenje: Datoteka {file_path} ne postoji.")
         return
 
